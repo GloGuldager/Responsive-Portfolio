@@ -1,0 +1,383 @@
+body {
+  /* overflow: scroll; */
+  background-image: url("../images/gray-background-1436871274B7v.jpg");
+  background-color: #777777;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 150%;
+  color: #777777;
+  height: 100%;
+  }
+
+a { background-color: #ffffff; color: #4aaaa5}
+
+a:hover {
+  background-color: #4aaaa5; color: #ffffff;
+}
+
+a:link { 
+  color: #4aaaa5;
+}
+
+nav {
+    float: right;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+    border-bottom: 1px;
+    border-color: #cccccc;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav > ul > li > a{
+    color: #777777;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.name {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 28px;
+    padding: 20px;
+    left: 6.25%;
+    float: left;
+    position: relative;
+}
+.bg-div {
+    overflow: hidden;
+    background:#ffffff;
+    margin-bottom: 25px;
+}
+.container {
+  /* overflow: scroll; */
+  /* box-sizing: auto; */
+  /* min-height:100%;
+  position: relative; */
+  width: 800px; height: 100%;
+  margin-left: 6.25%;
+  margin-right: 6.25%;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  float: left;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    border-bottom: 2px solid #dddddd;
+}
+
+#bio-image {
+  padding: 10px;
+  padding-left: 0px;
+  float: left;
+}
+
+.title {
+  padding: 10px;
+  padding-left: 0px;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #dddddd;
+}
+
+.box-message {
+  padding: 40px;
+}
+
+.submit {
+  width: 70px;
+  padding: 15px;
+  /* padding-left: 0px; */
+  background-color: #4aaaa5;
+  color: #ffffff;
+  text-align: center;
+  margin: 20px;
+  margin-left: 0px;
+}
+.port {
+  width: 200px;
+  height: 150px;
+  background-image: url("../images/portplacement.jpg");
+  border: 1px solid #666666;
+  margin: 20px;
+  margin-left: 0px;
+  float: left;
+}
+
+.banner {
+  position: relative;
+  width: 202px;
+  height: 40px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  margin-top: 100px;
+}
+
+.port1 {
+  position: absolute;
+  background-image: url(../images/IMG_2712.JPG);
+  background-size: cover;
+}
+.ban1 {
+  text-align: center;
+}
+
+.port2 {
+  background-image: url(../images/IMG_5428.JPG);
+  background-size: cover;
+  position: relative;
+  margin-left: 225px;
+  margin-top: -120px;
+  float: left;
+}
+.ban2 {
+  margin-left: 225px;
+  margin-top: -40px;
+  text-align: center;
+}
+.port3 {
+  background-image: url(../images/IMG_5663.JPG);
+  background-size: cover;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 60px;
+  float: left;
+}
+.ban3 {
+  margin-left: 0px;
+  margin-top: 130px;
+  text-align: center;
+}
+
+.port4 {
+  background-image: url(../images/IMG_5679.JPG);
+  background-size: cover;
+  position: relative;
+  margin-left: 225px;
+  margin-top: -110px;
+  float: left;
+}
+.ban4 {
+  margin-left: 225px;
+  margin-top: -40px;
+  text-align: center;
+}
+
+.port5 {
+  background-image: url(../images/IMG_5770.JPG);
+  background-size: cover;
+  position: absolute;
+  /* position: relative; */
+  margin-left: 0px;
+  margin-top: 60px;
+  margin-bottom: 20px
+  float: left;
+}
+.ban5 {
+  margin-left: 0px;
+  margin-top: 130px;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  /* position: absolute; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: #666666;
+  font-size: 8px;
+  text-align-last: center;
+  color: white;
+  text-align: center;
+  border-top: solid #4aaaa5 5px;
+  margin-top: 25px;
+}
+
+/* Width at 980px and below */
+@media screen and (max-width: 980px) {
+  body {
+    background-image: url("../images/gray-background-1436871274B7v.jpg");
+    background-color: #777777;
+    }
+
+  .container {
+    width: 800px; height: auto;
+    margin-left: 6.25%;
+    margin-right: 6.25%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    float: left;
+  }
+}    
+
+/* Additional Screen Sizes */
+
+/* Width at 768px and below */
+@media screen and (max-width: 768px) {
+  body {
+    background-image: url("../images/gray-background-1436871274B7v.jpg");
+    background-color: #777777;
+  }
+  .container {
+    width: 425px; height: auto;
+    margin-left: 6.25%;
+    margin-right: 6.25%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    float: left;
+  } 
+}
+
+/* Width at 640px and below */
+@media screen and (max-width: 640px) {
+  body {
+    background-image: url("../images/gray-background-1436871274B7v.jpg");
+    background-color: #777777;
+  }
+  .container {
+    width: 200px; height: auto;
+    margin-left: 6.25%;
+    margin-right: 6.25%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    float: left;
+  }
+  .port {
+    width: 200px;
+    height: 150px;
+    background-image: url("../images/portplacement.jpg");
+    border: 1px solid #666666;
+    margin: 20px;
+    margin-left: 0px;
+    float: left;
+  }
+  
+  .banner {
+    position: relative;
+    width: 202px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-top: 100px;
+  }
+  
+  .port1 {
+    position: absolute;
+    background-image: url(../images/IMG_2712.JPG);
+    background-size: cover;
+  }
+  .ban1 {
+    text-align: center;
+  }
+  
+  .port2 {
+    background-image: url(../images/IMG_5428.JPG);
+    background-size: cover;
+    /* position: relative; */
+    margin-left: 0px;
+    margin-top: 52px;
+    float: left;
+  }
+  .ban2 {
+    margin-left: 0px;
+    margin-top: 132px;
+    /* float: left; */
+    text-align: center;
+  }
+  .port3 {
+    background-image: url(../images/IMG_5663.JPG);
+    background-size: cover;
+    /* position: relative; */
+    margin-left: 0px;
+    margin-top: 52px;
+    float: left;
+  }
+  .ban3 {
+    margin-left: 0px;
+    margin-top: 132px;
+    text-align: center;
+  }
+  
+  .port4 {
+    background-image: url(../images/IMG_5679.JPG);
+    background-size: cover;
+    /* position: relative; */
+    margin-left: 0px;
+    margin-top: 52px;
+    float: left;
+  }
+  .ban4 {
+    margin-left: 0px;
+    margin-top: 132px;
+    text-align: center;
+  }
+  
+  .port5 {
+    background-image: url(../images/IMG_5770.JPG);
+    background-size: cover;
+    /* position: absolute; */
+    /* position: relative; */
+    margin-left: 0px;
+    margin-top: 52px;
+    /* margin-bottom: 20px; */
+    float: left;
+  }
+  .ban5 {
+    margin-left: 0px;
+    margin-top: 132px;
+    text-align: center;
+  }
+  
+}
+/* 5. Use three `@media screen` tags, each with one of these `max-width`s: `980px`, `768px` and `640px`.
+
+   * You use `980px` because you never want any of the content to be cut off. Since the desktop layout is about 960px wide, you want the media queries to kick in before your content gets cut off.
+
+   * `768px` is about the width of a tablet and `640px` is about the width of a phone in landscape.
+
+6. Make the layout match the following screenshots:
+
+   * `index.html`: [980px](Images/980-index.jpg), [768px](Images/768-index.jpg), [640px](Images/640-index.jpg)
+
+   * `portfolio.html`: [980px](Images/980-portfolio.jpg), [768px](Images/768-portfolio.jpg), [640px](Images/640-portfolio.jpg)
+
+   * `contact.html`: [980px](Images/980-contact.jpg), [768px](Images/768-contact.jpg), [640px](Images/640-contact.jpg)
+
+7. Make the position of the header `static` (the default positioning) when the screen is `640px` wide. The header design takes up a lot of room; you don't want it to stick to the top of a small screen and leave no room for the rest of your site.
+
+8. Be sure to include the `viewport` tag in all your HTML files, otherwise your media-queries won't function as expected on mobile devices. _(Hint: You won't need to use exact pixels for anything other than the container)_ */
