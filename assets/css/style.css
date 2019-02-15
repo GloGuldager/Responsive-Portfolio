@@ -8,21 +8,12 @@ body {
   height: 100%;
   }
 
-a { background-color: #ffffff; color: #4aaaa5}
-
-a:hover {
-  background-color: #4aaaa5; color: #ffffff;
-}
-
-a:link { 
-  color: #4aaaa5;
-}
-
 nav {
     float: right;
     margin: 0;
     overflow: hidden;
     text-align: center;
+    width: 100%;
     border-bottom: 1px;
     border-color: #cccccc;
 }
@@ -43,7 +34,7 @@ nav > ul > li > a{
     line-height: 2em;
     padding: 0.5em 1em;
     text-decoration: none;
-}
+} 
 
 .name {
     font-family: Georgia, 'Times New Roman', Times, serif; 
@@ -60,6 +51,17 @@ nav > ul > li > a{
     background:#ffffff;
     margin-bottom: 25px;
 }
+
+a { background-color: #ffffff; color: #4aaaa5}
+
+a:hover {
+  background-color: #4aaaa5; color: #ffffff;
+}
+
+a:link { 
+  background-color: #4aaaa5; color: #ffffff;
+}
+
 .container {
   width: 80vw; height: auto;
   margin: auto;
@@ -182,11 +184,11 @@ footer {
   }  */
 
 /* Width at 640px and below */
-/* @media screen and (max-width: 640px) {
+@media screen and (max-width: 640px) {
   body {
     background-image: url("../images/gray-background-1436871274B7v.jpg");
     background-color: #777777;
-  } */
+  }
   /* .container {
     width: 200px; height: auto;
     margin-left: 6.25%;
@@ -198,16 +200,6 @@ footer {
     border: 1px solid #dddddd;
     float: left;
   }
-  .port {
-    width: 200px;
-    height: 150px;
-    background-image: url("../images/portplacement.jpg");
-    border: 1px solid #666666;
-    margin: 20px;
-    margin-left: 0px;
-    float: left;
-  }
-  
   .banner {
     position: relative;
     width: 202px;
@@ -215,74 +207,24 @@ footer {
     background-color: #4aaaa5;
     color: #ffffff;
     margin-top: 100px;
-  }
-  
-  .port1 {
-    position: absolute;
-    background-image: url(../images/IMG_2712.JPG);
-    background-size: cover;
-  }
-  .ban1 {
-    text-align: center;
-  }
-  
-  .port2 {
-    background-image: url(../images/IMG_5428.JPG);
-    background-size: cover;
-    /* position: relative; */
-    /* margin-left: 0px;
-    margin-top: 52px;
-    float: left;
-  }
-  .ban2 {
-    margin-left: 0px;
-    margin-top: 132px; */
-    /* float: left; */
-    /* text-align: center;
-  }
-  .port3 {
-    background-image: url(../images/IMG_5663.JPG);
-    background-size: cover; */
-    /* position: relative; */
-    /* margin-left: 0px;
-    margin-top: 52px;
-    float: left;
-  }
-  .ban3 {
-    margin-left: 0px;
-    margin-top: 132px;
-    text-align: center;
-  }
-  
-  .port4 {
-    background-image: url(../images/IMG_5679.JPG);
-    background-size: cover; */
-    /* position: relative; */
-    /* margin-left: 0px;
-    margin-top: 52px;
-    float: left;
-  }
-  .ban4 {
-    margin-left: 0px;
-    margin-top: 132px;
-    text-align: center;
-  }
-  
-  .port5 {
-    background-image: url(../images/IMG_5770.JPG);
-    background-size: cover; */
-    /* position: absolute; */
-    /* position: relative; */
-    /* margin-left: 0px;
-    margin-top: 52px; */
-    /* margin-bottom: 20px; */
-    /* float: left;
-  }
-  .ban5 {
-    margin-left: 0px;
-    margin-top: 132px;
-    text-align: center;
   } */
+  /* nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    position: fixed;
+} */
+
+  .name {
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 20px;
+    padding: 20px;
+    left: 6.25%;
+    float: left;
+    position: relative;
+}
+  
   
   
 /* 5. Use three `@media screen` tags, each with one of these `max-width`s: `980px`, `768px` and `640px`.
