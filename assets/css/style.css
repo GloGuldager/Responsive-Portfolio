@@ -12,7 +12,7 @@ nav {
     float: right;
     margin: 0;
     overflow: hidden;
-    text-align: center;
+    text-align: right;
     width: 100%;
     border-bottom: 1px;
     border-color: #cccccc;
@@ -75,6 +75,7 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     font-weight: bold;
+    text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 0px;
@@ -128,7 +129,6 @@ h2 {
   width: 200px;
 }
 
-
 footer {
   position: fixed;
   left: 0;
@@ -136,6 +136,7 @@ footer {
   width: 100%;
   padding: 10px;
   background-color: #666666;
+  z-index: 1;
   font-size: 8px;
   text-align-last: center;
   color: white;
@@ -145,83 +146,43 @@ footer {
 }
 
 /* Width at 980px and below */
-/* @media screen and (max-width: 980px) {
-  body {
-    background-image: url("../images/gray-background-1436871274B7v.jpg");
-    background-color: #777777;
-    } */
+/* @media screen and (max-width: 980px) 
 
-  /* .container {
-    width: 800px; height: auto;
-    margin-left: 6.25%;
-    margin-right: 6.25%;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    float: left;
-  } */
+/* Did not feel the need to create media queries for any width greater than 640px as the width, heighth and margins options I used brought in some responsiveness for the larger screens.
 
-/* Additional Screen Sizes */
 
-/* Width at 768px and below */
-/* @media screen and (max-width: 768px) {
-  body {
-    background-image: url("../images/gray-background-1436871274B7v.jpg");
-    background-color: #777777;
-  } */
-  /* .container {
-    width: 425px; height: auto;
-    margin-left: 6.25%;
-    margin-right: 6.25%;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    float: left;
-  }  */
+/* Width at 640px and below
 
-/* Width at 640px and below */
+/* I'm fairly happy with the layout at this smaller screen size, but I was not able to get the name or image blocks on the portfolio to center the way I wanted. I tried a plethora of options that I researched and nothing seemed to work. I plan to keep working on it.
+/*  */
+
 @media screen and (max-width: 640px) {
   body {
     background-image: url("../images/gray-background-1436871274B7v.jpg");
     background-color: #777777;
   }
-  /* .container {
-    width: 200px; height: auto;
-    margin-left: 6.25%;
-    margin-right: 6.25%;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    float: left;
+
+nav {
+    text-align: center;
+    font-size: small;
   }
-  .banner {
-    position: relative;
+.banner {
+    /* position: relative; */
     width: 202px;
     height: 40px;
     background-color: #4aaaa5;
     color: #ffffff;
     margin-top: 100px;
-  } */
-  /* nav ul li{
-    display: inline-block;
-    list-style-type: none;
-    position: fixed;
-} */
+  }
 
-  .name {
+.name {
     font-family: Georgia, 'Times New Roman', Times, serif; 
     color: #ffffff;
     background-color: #4aaaa5;
     font-size: 20px;
     padding: 20px;
     left: 6.25%;
-    float: left;
+    text-align: center;
     position: relative;
 }
   
