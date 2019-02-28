@@ -5,15 +5,25 @@ body {
   font-size: 20px;
   line-height: 150%;
   color: #777777;
-  height: 100%;
   }
+
+a { 
+  background-color: #4aaaa5; color: #ffffff;
+}
+
+a:hover {
+  background-color: #4aaaa5; color: #ffffff;
+}
+
+a:link { 
+  color: #ffffff;
+}
 
 nav {
     float: right;
     margin: 0;
     overflow: hidden;
-    text-align: right;
-    width: 100%;
+    text-align: center;
     border-bottom: 1px;
     border-color: #cccccc;
 }
@@ -29,12 +39,12 @@ nav ul li{
 }
 
 nav > ul > li > a{
-    color: #777777;
+    color: #ffffff;
     display: block;
     line-height: 2em;
     padding: 0.5em 1em;
     text-decoration: none;
-} 
+}
 
 .name {
     font-family: Georgia, 'Times New Roman', Times, serif; 
@@ -51,23 +61,16 @@ nav > ul > li > a{
     background:#ffffff;
     margin-bottom: 25px;
 }
-
-a { background-color: #ffffff; color: #4aaaa5}
-
-a:hover {
-  background-color: #4aaaa5; color: #ffffff;
-}
-
-a:link { 
-  background-color: #4aaaa5; color: #ffffff;
-}
-
 .container {
-  width: 80vw; height: auto;
-  margin: auto;
-  padding: 20px;
+  width: 960px;
+  margin-left: 6.25%;
+  margin-right: 6.25%;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   background-color: #ffffff;
   border: 1px solid #dddddd;
+  float: left;
 }
 
 h2 {
@@ -75,7 +78,6 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
     font-weight: bold;
-    text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 0px;
@@ -105,28 +107,94 @@ h2 {
 .submit {
   width: 70px;
   padding: 15px;
+  /* padding-left: 0px; */
   background-color: #4aaaa5;
   color: #ffffff;
   text-align: center;
   margin: 20px;
   margin-left: 0px;
 }
-
-.image-container {
-  display: inline-block;
-  position: relative;
-  padding-top: 20px;
-  padding-right: 20px;
+.port {
+  width: 200px;
+  height: 150px;
+  background-image: url("../images/portplacement.jpg");
+  border: 1px solid #666666;
+  margin: 20px;
+  margin-left: 0px;
+  float: left;
 }
 
 .banner {
-  position: absolute;
-  bottom: 40px;
-  z-index: 1;
+  position: relative;
+  width: 202px;
+  height: 40px;
   background-color: #4aaaa5;
   color: #ffffff;
+  margin-top: 100px;
+}
+
+.port1 {
+  position: absolute;
+  background-image: url(../images/question_mark_PNG107.png);
+  background-size: cover;
+}
+.ban1 {
   text-align: center;
-  width: 200px;
+}
+
+.port2 {
+  background-image: url(../images/IMG_5428.JPG);
+  background-size: cover;
+  position: relative;
+  margin-left: 225px;
+  margin-top: -120px;
+  float: left;
+}
+.ban2 {
+  margin-left: 225px;
+  margin-top: -40px;
+  text-align: center;
+}
+.port3 {
+  background-image: url(../images/IMG_5663.JPG);
+  background-size: cover;
+  position: relative;
+  margin-left: 450px;
+  margin-top: -172px;
+  float: left;
+}
+.ban3 {
+  margin-left: 450px;
+  margin-top: -40px;
+  text-align: center;
+}
+
+.port4 {
+  background-image: url(../images/IMG_5679.JPG);
+  background-size: cover;
+  position: absolute;
+  margin-left: 0px;
+  margin-top: 60px;
+  float: left;
+}
+.ban4 {
+  margin-left: 0px;
+  margin-top: 130px;
+  text-align: center;
+}
+
+.port5 {
+  background-image: url(../images/IMG_5770.JPG);
+  background-size: cover;
+  position: relative;
+  margin-left: 225px;
+  margin-top: -110px;
+  float: left;
+}
+.ban5 {
+  margin-left: 225px;
+  margin-top: -40px;
+  text-align: center;
 }
 
 footer {
@@ -134,9 +202,8 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  padding: 10px;
+  /* padding: 20px; */
   background-color: #666666;
-  z-index: 1;
   font-size: 8px;
   text-align-last: center;
   color: white;
@@ -144,64 +211,3 @@ footer {
   border-top: solid #4aaaa5 5px;
   margin-top: 25px;
 }
-
-/* Width at 980px and below */
-/* @media screen and (max-width: 980px) 
-
-/* Did not feel the need to create media queries for any width greater than 640px as the width, heighth and margins options I used brought in some responsiveness for the larger screens.
-
-
-/* Width at 640px and below
-
-/* I'm fairly happy with the layout at this smaller screen size, but I was not able to get the name or image blocks on the portfolio to center the way I wanted. I tried a plethora of options that I researched and nothing seemed to work. I plan to keep working on it.
-/*  */
-
-@media screen and (max-width: 640px) {
-  body {
-    background-image: url("../images/gray-background-1436871274B7v.jpg");
-    background-color: #777777;
-  }
-
-nav {
-    text-align: center;
-    font-size: small;
-  }
-.banner {
-    /* position: relative; */
-    width: 202px;
-    height: 40px;
-    background-color: #4aaaa5;
-    color: #ffffff;
-    margin-top: 100px;
-  }
-
-.name {
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    color: #ffffff;
-    background-color: #4aaaa5;
-    font-size: 20px;
-    padding: 20px;
-    left: 6.25%;
-    text-align: center;
-    position: relative;
-}
-  
-  
-  
-/* 5. Use three `@media screen` tags, each with one of these `max-width`s: `980px`, `768px` and `640px`.
-
-   * You use `980px` because you never want any of the content to be cut off. Since the desktop layout is about 960px wide, you want the media queries to kick in before your content gets cut off.
-
-   * `768px` is about the width of a tablet and `640px` is about the width of a phone in landscape.
-
-6. Make the layout match the following screenshots:
-
-   * `index.html`: [980px](Images/980-index.jpg), [768px](Images/768-index.jpg), [640px](Images/640-index.jpg)
-
-   * `portfolio.html`: [980px](Images/980-portfolio.jpg), [768px](Images/768-portfolio.jpg), [640px](Images/640-portfolio.jpg)
-
-   * `contact.html`: [980px](Images/980-contact.jpg), [768px](Images/768-contact.jpg), [640px](Images/640-contact.jpg)
-
-7. Make the position of the header `static` (the default positioning) when the screen is `640px` wide. The header design takes up a lot of room; you don't want it to stick to the top of a small screen and leave no room for the rest of your site.
-
-8. Be sure to include the `viewport` tag in all your HTML files, otherwise your media-queries won't function as expected on mobile devices. _(Hint: You won't need to use exact pixels for anything other than the container)_ */
